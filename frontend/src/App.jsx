@@ -110,9 +110,9 @@ export default function App() {
               {profile.intro}
             </motion.p>
             <motion.div className="hero-actions" variants={fadeUp}>
-              <a className="btn primary" href="#projects">
+              {/* <a className="btn primary" href="#projects">
                 View Projects
-              </a>
+              </a> */}
               <a className="btn ghost" href="#contact">
                 Let's Connect
               </a>
@@ -139,16 +139,19 @@ export default function App() {
       <main id="main">
         <Section id="about" kicker="Profile" title="About" variant="left">
           <p className="section-text">
-            I focus on building practical engineering systems and data-driven
-            applications, combining electrical foundations with modern software
-            development. I enjoy applied work in energy, aerospace, and
-            automation, and I like designing tools that simplify complex
-            processes.
+            Electrical and Electronics Engineering graduate from Manipal
+            Institute of Technology with a minor in Data Science, currently
+            working in technology consulting. I have a strong foundation in data
+            analysis, backend development, and analytical problem-solving, with
+            experience building scalable systems and supporting data-driven
+            decision making. I enjoy bridging technical implementation with
+            business requirements, and am keen to contribute to roles at the
+            intersection of technology, analytics, and strategy.
           </p>
         </Section>
 
         <Section id="skills" kicker="Skillset" title="Skills" variant="right">
-          <div className="grid-3">
+          <div className="grid-2-3">
             {skills.map((group) => (
               <div className="card" key={group.label}>
                 <h3>{group.label}</h3>
@@ -236,8 +239,8 @@ export default function App() {
         <Section id="contact" kicker="Contact" title="Let's Build Something">
           <div className="contact-card">
             <p className="section-text">
-              Open to internships, collaborations, and projects that mix systems
-              thinking with data-driven solutions.
+              Open to collaborations and projects in risk analytics, financial
+              technology, and data-driven consulting solutions.
             </p>
             <div className="contact-links">
               <a className="btn primary" href={`mailto:${profile.email}`}>

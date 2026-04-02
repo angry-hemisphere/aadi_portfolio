@@ -5,15 +5,15 @@ html {
 :root {
   color-scheme: dark;
   --bg: #0c0d12;
-  --bg-soft: #11131a;
-  --surface: #171a24;
-  --surface-strong: #1f2230;
+  --bg-soft: #12141c;
+  --surface: #1a1d2a;
+  --surface-strong: #242838;
   --text: #f5f6ff;
   --text-muted: #a2a8bf;
   --accent: #5cffd1;
   --accent-2: #4aa3ff;
-  --border: rgba(255, 255, 255, 0.08);
-  --shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+  --border: rgba(255, 255, 255, 0.12);
+  --shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
 }
 
 * {
@@ -232,7 +232,10 @@ ul {
 }
 
 .kicker {
-  display: none;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--accent);
 }
 
 .section-text {
@@ -247,6 +250,12 @@ ul {
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.grid-2-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
 }
 
@@ -266,7 +275,12 @@ ul {
   border: 1px solid var(--border);
   border-radius: 20px;
   padding: 24px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.04);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  border-color: rgba(92, 255, 209, 0.15);
 }
 
 .card h3 {
@@ -463,6 +477,12 @@ ul {
   padding: 32px;
   display: grid;
   gap: 18px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .footer {
