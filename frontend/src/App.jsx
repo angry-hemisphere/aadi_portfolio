@@ -139,14 +139,13 @@ export default function App() {
       <main id="main">
         <Section id="about" kicker="Profile" title="About" variant="left">
           <p className="section-text">
-            Electrical and Electronics Engineering graduate from Manipal
-            Institute of Technology with a minor in Data Science, currently
-            working in technology consulting. I have a strong foundation in data
-            analysis, backend development, and analytical problem-solving, with
-            experience building scalable systems and supporting data-driven
-            decision making. I enjoy bridging technical implementation with
-            business requirements, and am keen to contribute to roles at the
-            intersection of technology, analytics, and strategy.
+            Python-focused developer building financial risk applications in
+            technology consulting. I shipped an RBI-compliant credit-risk
+            platform to production for a banking client, with hands-on
+            experience across Python, SQL, Flask REST APIs, and Docker-based
+            on-premises deployment. I'm keen to build modular, efficient
+            applications at the intersection of technology, financial data,
+            and portfolio analytics.
           </p>
         </Section>
 

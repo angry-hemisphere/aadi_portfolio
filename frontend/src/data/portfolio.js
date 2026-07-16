@@ -1,8 +1,8 @@
 export const profile = {
   name: "Aadi Amritraj Gupta",
-  title: "Risk & Technology Consulting",
+  title: "Senior Associate, Technology Consulting",
   intro:
-    "EEE graduate from Manipal with a Data Science minor, currently in technology consulting. Strong foundation in data analysis, backend development, and analytical problem-solving — bridging technical implementation with business requirements.",
+    "Python-focused developer building financial risk applications in technology consulting. Shipped an RBI-compliant credit-risk platform to production for a banking client, with hands-on experience across Python, SQL, Flask REST APIs, and Docker-based on-premises deployment. Keen to build modular, efficient applications at the intersection of technology, financial data, and portfolio analytics.",
   location: "India",
   email: "getaadigupta2@gmail.com",
   phone: "+91 9910265003",
@@ -11,24 +11,16 @@ export const profile = {
 
 export const skills = [
   {
-    label: "Programming & Data",
-    items: ["Python", "SQL", "Pandas", "NumPy", "Data Analysis", "Data Visualization"]
+    label: "Languages & Data",
+    items: ["Python", "SQL", "Pandas", "NumPy", "Data Analysis", "Data Visualization", "Advanced Excel", "BI Tools"]
   },
   {
-    label: "Backend & Tools",
-    items: ["Flask", "REST APIs", "Git", "Jupyter Notebook"]
+    label: "Backend & Infrastructure",
+    items: ["Flask", "REST APIs", "Docker", "Linux", "Git", "Jupyter", "MATLAB/Simulink"]
   },
   {
-    label: "Domain Knowledge",
-    items: ["Risk Management", "Expected Credit Loss", "Market Research", "Business Analysis"]
-  },
-  {
-    label: "Software Tools",
-    items: ["MATLAB", "Simulink", "Advanced Excel", "BI Tools"]
-  },
-  {
-    label: "Soft Skills",
-    items: ["Problem Solving", "Stakeholder Communication", "Technical Documentation", "Team Collaboration"]
+    label: "Finance Domain",
+    items: ["Financial Risk Management", "Expected Credit Loss (ECL)", "RBI Regulatory Compliance", "Market Research", "Business & Stakeholder Analysis"]
   }
 ];
 
@@ -61,16 +53,17 @@ export const projects = [
 
 export const experience = [
   {
-    role: "Senior Associate",
+    role: "Senior Associate, Technology Consulting",
     company: "Grant Thornton Bharat",
     period: "Feb 2025 – Present",
     highlights: [
-      "Developed backend systems using Python, SQL, and Flask for Early Warning Signal (EWS) applications focused on financial risk monitoring.",
-      "Designed and implemented RESTful APIs integrating front-end interfaces with business logic and database systems.",
-      "Conducted market research and price discovery analysis for cybersecurity solutions for a banking client.",
-      "Contributed to the development and deployment of an RBI-compliant Expected Credit Loss (ECL) system.",
-      "Supported successful go-live of the ECL platform ensuring backend stability, data accuracy, and regulatory compliance.",
-      "Collaborated with consulting teams to translate business requirements into scalable technical solutions."
+      "Shipped an RBI-compliant Expected Credit Loss (ECL) platform — an in-house credit-risk product now being rolled out to further clients — to production for a banking client, owning the backend and data layer end-to-end; deployed on-premises across Linux servers using Docker containers.",
+      "Built data-ingestion and validation pipelines delivering clean, consistent loan data for credit-risk computations, engineered for repeatable and consistent execution across runs.",
+      "Supported the platform's go-live by hardening backend stability, validating data accuracy, and enforcing regulatory compliance.",
+      "Architected RESTful APIs in Python and Flask connecting front-end interfaces to core business logic and database systems, exposing 200+ endpoints across 30+ services.",
+      "Developed backend systems in Python, SQL, and Flask for an internal Early Warning Signal (EWS) financial-risk-monitoring application, building the data-ingestion and signal-computation logic.",
+      "Conducted market research and price-discovery analysis of cybersecurity vendors for a banking client, evaluating 50+ vendors on capability and pricing to inform procurement strategy.",
+      "Partnered with consulting teams to translate business requirements into modular, scalable solutions deployable across multiple environments."
     ]
   },
   {
@@ -78,9 +71,8 @@ export const experience = [
     company: "Boeing",
     period: "Jun 2024 – Jul 2024",
     highlights: [
-      "Assisted in developing a Flask-based web application to optimize maintenance workflows.",
-      "Analyzed maintenance data and generated reports to support operational decision-making.",
-      "Documented APIs and prepared technical documentation for internal tools."
+      "Helped initiate an internal Flask-based web application that indexed all damage and issue categories into a searchable catalog, streamlining maintenance workflows.",
+      "Analyzed maintenance data and generated reports for resolving issues and supporting operational decisions."
     ]
   },
   {
@@ -88,8 +80,7 @@ export const experience = [
     company: "General Electric Power",
     period: "Jul 2023",
     highlights: [
-      "Studied hydroelectric and pumped storage operations, analyzing performance and efficiency metrics.",
-      "Observed predictive maintenance practices using real-time operational data."
+      "Analyzed hydroelectric and pumped-storage operations from real-time telemetry, studying performance metrics and predictive-maintenance practices."
     ]
   }
 ];
@@ -98,17 +89,17 @@ export const background = [
   {
     label: "Education",
     items: [
-      "Manipal Institute of Technology — B.Tech EEE, Minor in Data Science (CGPA: 7.3) — 2021–2025",
-      "Amity International School, Saket — Class XII (94.8%) — 2021",
+      "Manipal Institute of Technology, Udupi — B.Tech EEE, Minor in Data Science (CGPA: 7.19) — 2021–2025",
+      "Amity International School, Saket, Delhi — Class XII (94.8%) — 2021",
       "Amity International School, Gurugram — Class X (94%) — 2019"
     ]
   },
   {
-    label: "Extracurriculars",
+    label: "Leadership",
     items: [
-      "Treasurer & Technical Head, IE EnE (Manipal) — Organized workshops, site visits, and managed finances",
-      "Management Committee Member, Research Society Manipal — Managed operations and community initiatives",
-      "Organizer, Techtatva Manipal — Coordinated speaker events for technical fest"
+      "Treasurer & Technical Head, IE EnE (Manipal) — Organized workshops, site visits, and chapter finances",
+      "Management Committee, Research Society Manipal",
+      "Organizer, Techtatva technical fest"
     ]
   }
 ];
